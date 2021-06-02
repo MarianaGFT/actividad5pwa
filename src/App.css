@@ -1,3 +1,12 @@
+:root {
+  --color-green: #669933;
+  --default-font-size: 1.6rem;
+  --font-size-heading: 36px;
+  --font-size-subheading: 24px;
+  --font-size-information-text: 24px;
+}
+
+
 .App {
   text-align: center;
 }
@@ -26,6 +35,69 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.modal-body {
+  font-weight: normal !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #000 !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+.modal-body p {
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+.modal-body img {
+  
+    width: 13rem;
+    margin: 0 auto;
+  
+}
+
+.modal-footer {
+  justify-content: center !important;
+}
+
+.toast-body{
+      FONT-SIZE: 18PX;
+      FONT-WEIGHT: 700;
+      COLOR:var(--color-green);
+      text-align: initial;
+}
+
+.toast-body p{
+      font-size: 12px;
+      font-weight: 400;
+      color: #949494;
+}
+.toast-body h3{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+}
+.toast-body h4{
+      font-size: 12px;
+      margin: 0 .5rem;
+      font-weight: 500;
+}
+.col-6{
+  max-width: 100%;
+  margin: 0 auto;
+  flex: 0 0 100%;
+}
+.row{
+  margin:0;
+  z-index: 2;
+  position: relative;
+}
+.toast.show {
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
